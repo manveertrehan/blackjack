@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+    <title>Blackjack</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="head">&hearts; &spades; &clubs; &diams; Blackjack &hearts; &spades; &clubs; &diams;</div>
+
+        <div class="results" id="results">Bet and deal hands to start the round</div>
+
+        <div class="bets">
+            <label for="betAmnt" id="betLabel">Bet Amount: </label>
+            <input type="number" id="betAmnt" class="betAmnt">
+            <input type="button" id="newHand" class="btns" value="Deal Hand" onclick="start()">
+            <div class="chips" id="chips">$1000</div>
+        </div>
+
+        <div class="hands">
+            <div id="player" class="person">
+                <h4>Player</h4>
+                <div class="hand" id="PlayerHand"></div>
+                <div class="handVal" id="PlayerVal">0</div>
+            </div>
+
+            <div id="dealer" class="person">
+                <h4>Dealer</h4>
+                <div class="hand" id="DealerHand"></div>
+                <div class="handVal" id="DealerVal">0</div>
+            </div>
+        </div>
+
+        <div class="options">
+            <input type="button" id="hit" class="btns" value="Hit" onclick="hit(player)">
+            <input type="button" id="stay" class="btns" value="Stay" onclick="stay(player)">
+        </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="blackjack.js"></script>
+</body>

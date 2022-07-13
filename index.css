@@ -1,0 +1,112 @@
+.container {
+    max-width: 750px;
+    border: solid 13px #966F33;
+    background: rgb(0, 77, 0);
+    text-align: center;
+    min-height: 500px;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.results {
+    display: inline-block;
+    border: solid 3px #e2d2b9;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 400px;
+    font-size: 20px;
+}
+
+.head {
+    color: bisque;
+    font-size: 50px;
+    font-family: copperplate;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.chips {
+    float: right;
+    color: black;
+    background-color: white;
+    border: solid 5px red;
+    border-radius: 50%;
+    line-height: 50px;
+    width: 50px;
+    outline: solid 5px white;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+}
+
+.bets {
+    padding: 30px;
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.betAmnt {
+    border: solid 3px black;
+    border-radius: 5px;
+    min-height: 20px;
+}
+
+.btns {
+    background-color: #966F33;
+    border: solid 1px white;
+    color: bisque;
+    font-size: 20px;
+}
+
+.hand {
+    width: 300px;
+    display: inline-block;
+    margin: 1%;
+    vertical-align: top;
+    background: #f5f5f5;
+}
+
+.hands {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.person {
+    width: 300px;
+    border: solid 5px black;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+    background: #f5f5f5;
+    font-size: 25px;
+    padding: 5px;
+    color: black;
+    text-shadow: -1px 0 bisque, 0 1px bisque, 1px 0 bisque, 0 -1px bisque;
+}
+
+.card {
+    width: 50px;
+    height: 80px;
+    padding: 5px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin: 3px;
+    border: solid 3px black;
+    color: black;
+    text-shadow: none;
+}
+
+.options {
+    padding: 10px;
+}
